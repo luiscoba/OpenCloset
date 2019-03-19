@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="opencloset.ec.com.opencloset">
+
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.sesion.SplashActivity"
+            android:label="@string/title_activity_splash"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.menu.Categorias"
+            android:label="@string/title_activity_categorias"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.menu.ListaDeVentas"
+            android:label="@string/title_activity_lista_de_cupones"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.menu.ListaDeArriendos"
+            android:label="@string/title_activity_lista_de_arriendos"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.sesion.RegistroActivity"
+            android:label="@string/title_activity_registro"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.sesion.NotificacionesActivity"
+            android:label="@string/title_activity_notifications"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.sesion.RecuperaCuentaActivity"
+            android:label="@string/title_activity_recuperar_cuenta"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.menu.ListaDeCompras"
+            android:label="@string/title_activity_compras"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.sesion.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.coordinar.pagoRentador"
+            android:label="@string/title_activity_pago_rentador"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.sesion.LlenarRegistroFaltante"
+            android:label="@string/title_llenar_registro_faltante"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.notificaciones.MsnRecuperaClaveActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.notificaciones.IniciadoSesionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.notificaciones.SinConexionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.subir.fotos.Agrega_fotos"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mostrarImagenes.VisualzarImagenes"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".fragment.items.detalles.MultipleItems"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".activity.coordinar.pagoVendedor"
+            android:label="@string/title_activity_pago_vendedor"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".activity.coordinar.acuerdaElPago" />
+        <activity android:name=".activity.subir.Detalles_publicacion" />
+        <activity android:name=".activity.subir.Publicar" />
+        <activity android:name=".activity.subir.Revisar" />
+        <activity android:name=".activity.subir.mapa.MapaDireccion" />
+    </application>
+
+</manifest>

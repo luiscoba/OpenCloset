@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/inicio_sesion"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Inicia sesión" />
+        <!--       <item
+                      android:id="@+id/preferencias"
+                      android:icon="@drawable/ic_menu_gallery"
+                      android:title="Preferencias" />           -->
+        <item
+            android:id="@+id/compras"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Compras" />
+
+        <item
+            android:id="@+id/ventas"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Ventas" />
+        <item
+            android:id="@+id/arriendos"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Arriendos" />
+
+    </group>
+    <item android:title="">
+        <menu>
+
+            <item
+                android:id="@+id/cerrar_sesion"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Cerrar sesión" />
+        </menu>
+    </item>
+    <!--        <item android:title="Preferencia">
+               <menu>
+                   <item
+                       android:id="@+id/categorias"
+                       android:icon="@drawable/ic_menu_share"
+                       android:title="Elección de categorias" />
+                             <item
+                                     android:id="@MapaDireccionmapa"
+                                     android:icon="@drawable/ic_menu_send"
+                                     android:title="Mapa" />
+        </menu>
+    </item>
+ -->
+
+</menu>

@@ -1,0 +1,130 @@
+<resources>
+    <string name="app_name">Open Closet</string>
+    <string name="title_activity_notifications">Notifications</string>
+    <string name="title_activity_recuperar_cuenta">Reestablecer contraseña</string>
+    <string name="title_activity_compras">Compras</string>
+    <string name="title_activity_categorias">Categorias</string>
+    <string name="title_activity_splash">OpenCloset</string>
+    <string name="title_llenar_registro_faltante">Completa registro</string>
+    <string name="title_activity_login">Log In</string>
+    <string name="title_activity_registro">Registro</string>
+    <string name="title_activity_formulario">Formulario</string>
+    <string name="title_activity_promociones">Cupones</string>
+    <string name="title_activity_pago_rentador">Pago rentador</string>
+    <string name="title_activity_notificaciones">Notificaciones</string>
+
+    <string name="title_activity_lista_de_arriendos">Lista de arriendos</string>
+    <string name="title_activity_lista_de_cupones">Lista de cupones</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="actualizar">Actualizar listas</string>
+    <string name="infNombreProducto">Nombre Producto</string>
+    <string name="imgEstablecimiento">Imagen del establecimiento</string>
+    <string name="bienvenido">Bienvenido</string>
+    <string name="hola">Hola</string>
+    <string name="prompt_correo_electronico">Correo electrónico</string>
+    <string name="prompt_clave">Contraseña</string>
+    <string name="prompt_repetir_clave">Repetir contraseña</string>
+
+    <string name="image_welcome">Bienvenido</string>
+    <string name="show_clave">OCULTAR</string>
+    <string name="hide_clave">MOSTRAR</string>
+    <string name="action_sign_in"> Iniciar sesión</string>
+    <string name="txtOlvidasteContrasena">¿Olvidaste tu contraseña?</string>
+    <string name="action_create_sing">Crear cuenta</string>
+    <string name="errorCampoRequerido">Este campo es requerido</string>
+    <string name="permisoRequerido">Se requiere permisos.</string>
+    <string name="msnRecuperarCuenta">Para resetear tu contraseña, introduce el correo asociado a tu cuenta: </string>
+    <string name="txtIngresaCorreo">Correo electrónico</string>
+    <string name="txtPoliticaDePrivacidad">Política de privacidad de datos</string>
+    <string name="btnRecuperaCuenta">ENVIAR</string>
+    <string name="errorPasswordInvalido">Ingrese contraseña</string>
+    <string name="errorTituloInvalido">Ingrese titulo del producto</string>
+    <string name="errorDescripcionInvalido">Describe tu producto</string>
+    <string name="errorColorInvalido">Ingrese color o colores</string>
+    <string name="errorNombreInvalido">Ingrese nombre</string>
+    <string name="errorApellidoInvalido">Ingrese apellido</string>
+    <string name="errorEmailInvalido">Ingrese email</string>
+    <string name="errorCelularInvalido">Número de celular no es válido</string>
+    <string name="errorConvencionalInvalido">Número convencional no es válido</string>
+    <string name="errorPrecioInvalido">Precio vacío</string>
+    <string name="errorFechaExpiraInvalido">Fecha de expiración vacío</string>
+    <string name="errorStockInvalido">Stock vacío</string>
+    <string name="errorPrecioIgualAcero">Precio unitario no puede ser cero</string>
+    <string name="errorStockIgualAcero">Stock no puede ser cero</string>
+    <string name="errorCantidadMenorAsiete">Cantidad no puede ser menor a 7</string>
+    <string name="msnIngresoContrasenasNuevas">Ingrese nueva contraseña:</string>
+    <string name="ok">Aceptar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="operacion_cancelada">Operacion cancelada</string>
+    <string name="logIng">Iniciar sesión</string>
+    <string name="tab1">VENTA</string>
+    <string name="tab2">RENTA</string>
+
+    <string name="action_register">Registrarse</string>
+    <string name="txtRegEmail">Email</string>
+    <string name="txtRegNombre">Nombre</string>
+    <string name="txtRegApellido">Apellido</string>
+    <string name="txtPrecio">Precio</string>
+    <string name="todo">TODO</string>
+
+    <string name="finalizaEn">Finaliza en </string>
+    <string name="nombreProducto">Nombre del producto </string>
+    <string name="descripcionProducto">Descripcion del producto </string>
+    <string name="Precio">Precio unitario en Dolares</string>
+    <string name="cantidad">Cantidad que lleva</string>
+
+    <string name="nombreUsuario">Nombre de usuario</string>
+    <string name="fechaDePublicacion">Fecha de publicacion</string>
+    <string name="btnVentaOrenta">VentaOrenta</string>
+    <string name="provinciaCiudad">Provincia, Ciudad</string>
+
+    <string name="numeroDeFotos">Numero de fotos</string>
+    <string name="categoria">Categoria</string>
+    <string name="title_activity_pago_vendedor">Pago vendedor</string>
+
+    <string name="txtSolo_falta">¡solo falta!</string>
+    <string name="txtCoordinarVendedor">Coordinar con el vendedor el pago y envío</string>
+    <string name="txtCoordinarRentador">Coordinar con el rentador el pago y envío</string>
+    <string name="txtVendedor">Vendedor</string>
+    <string name="txtRentador">Rentador</string>
+    <string name="txtNombre_vendedor">nombre del vendedor</string>
+    <string name="txtNombre_rentador">nombre del rentador</string>
+    <string name="telf_vendedor">telefonos del vendedor</string>
+    <string name="telf_rentador">telefonos del rentador</string>
+    <string name="correo_vendedor">correo del vendedor</string>
+    <string name="correo_rentador">correo del rentador</string>
+    <string name="imgProducto">foto del producto</string>
+
+    <string name="txtAcuerda_el_pago">Acuerdas el pago y la entrega con el vendedor</string>
+    <string name="txtRevisar_tu_compra">Después de revisar tu compra, tendrás que contactarlo para acordar el pago y la entrega del producto</string>
+    <string name="btn_Ok_entendido">Ok, entendido</string>
+    <string name="imgOpenCloset">foto de openCloset</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dialogo_deseas_publicar">¿Deseas publicar?</string>
+
+    <string name="title_activity_maps">Map</string>
+    <string name="cargando_mapa">Cargando Mapa...</string>
+    <string name="espere">Espere ....</string>
+    <string name="mapa">Ver Mapa</string>
+    <string name="cambiar_tipo_mapa">Cambiar tipo</string>
+    <string name="adicionar_lugares">Adicionar lugares</string>
+    <string name="seleccione_tipo_mapa">Seleccione el tipo</string>
+    <string name="clean_m">Limpiar</string>
+
+    <string name="esperandoPorFotos">Esperando por fotos</string>
+    <string name="esperandoPorDireccion">Esperando por dirección</string>
+
+    <string name="hint_search">Buscar en OpenCloset</string>
+
+    <string name="infNombreCategoria">NombreCategoria</string>
+    <string name="infEligeTuCategoria">Elige categoria </string>
+    <string name="infListo">¡ Listo !</string>
+
+    <string name="msnSinConexion">No hay conexión a internet.</string>
+    <string name="btnIrWiFi">Comprueba tus ajustes</string>
+
+</resources>

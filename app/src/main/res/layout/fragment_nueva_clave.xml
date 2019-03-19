@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="40dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="opencloset.ec.com.opencloset.fragment.dialogs.NuevaClave">
+
+    <in.anshul.libray.PasswordEditText
+        android:id="@+id/txtContrasena"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center_horizontal"
+        android:hint="@string/prompt_clave"
+        android:imeActionId="6"
+        android:imeOptions="actionDone"
+        android:maxLength="50"
+        android:maxLines="1"
+        android:singleLine="true"
+        app:hide_text="@string/hide_clave"
+        app:password_visible="false"
+        app:show_text="@string/show_clave" />
+
+    <EditText
+        android:id="@+id/txtRepetirContrasena"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center_horizontal"
+        android:hint="@string/prompt_repetir_clave"
+        android:imeActionId="6"
+        android:imeOptions="actionDone"
+        android:maxLength="50"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:inputType="textPassword"/>
+
+</LinearLayout>
