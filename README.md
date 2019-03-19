@@ -1,2 +1,2 @@
 # OpenCloset
-Segunda app creada, consume servicio Web REST
+Segunda app creada, es para hacer compras y rentas de ropa, consume servicio Web REST
